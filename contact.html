@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taufiq | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .contact-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin: 30px 0;
+            font-size: 1.1em;
+            line-height: 2;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .social-links a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            gap: 10px;
+        }
+        
+        .social-links a:hover {
+            transform: translateY(-10px);
+        }
+        
+        .social-links img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .social-links span {
+            font-size: 0.9em;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .contact-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.3;
+            color:black;
+            letter-spacing: 1px;
+        }
+
+        .contact-subtitle {
+            font-size: 1.2em;
+            color: whitesmoke;
+            margin-bottom: 30px;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="biodata.html">ABOUT</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</header>
+
+<main>
+    <section class="contact-container">
+        <h1 class="contact-title">Get In Touch</h1>
+        <p class="contact-subtitle">Feel free to reach out through any of these platforms</p>
+
+        <div class="social-links">
+            <a href="https://web.whatsapp.com" target="_blank">
+                <img src="./jpg/whatapp.png" alt="WhatsApp">
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#compose" target="_blank">
+                <img src="./jpg/gmail.png" alt="Gmail">
+                <span>Gmail</span>
+            </a>
+            <a href="https://github.com" target="_blank">
+                <img src="https://cdn.cdnlogo.com/logos/g/69/github-icon.svg" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.tiktok.com/@topek_0707" target="_blank">
+                <img src="./jpg/tiktok.webp" alt="TikTok">
+                <span>TikTok</span>
+            </a>
+        </div>
+    </section>
+</main>
+</body>
+</html>
